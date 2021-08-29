@@ -28,7 +28,7 @@ body {
 .card {
   margin-bottom: 25px;
   background: #f4f3ee;
-  border-radius: 15px;
+  border-radius: 10px;
   -webkit-box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.07);
           box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.07);
 }
@@ -58,6 +58,9 @@ footer {
 }
 
 @media (min-width: 700px) {
+  .footer-layout, footer address, footer p {
+    margin-bottom: 0;
+  }
   footer {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -66,13 +69,13 @@ footer {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    padding: 15px;
+    padding: 10px;
   }
   footer address {
-    margin-left: 5%;
+    margin-left: 3%;
   }
   footer p {
-    margin-right: 5%;
+    margin-right: 3%;
   }
 }
 
@@ -108,7 +111,7 @@ nav ul {
 }
 
 nav .navbar-brand {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .bg-light {
