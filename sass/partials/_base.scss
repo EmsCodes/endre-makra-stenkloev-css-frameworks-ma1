@@ -1,0 +1,18 @@
+body {
+	background: getColour(body-grey);
+}
+.card-body {
+	max-width: 250px;
+	height: 250px;
+}
+.card {
+	margin-bottom: 25px;
+	background: getColour(beige);
+}
+.pink-card {
+	background: getColour(pink);
+}
+.white-card {
+	background: #fff;
+	border: 2px solid getColour(pink);
+}

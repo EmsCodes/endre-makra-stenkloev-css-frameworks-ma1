@@ -1,0 +1,55 @@
+body {
+  background: #e5e5e5;
+}
+
+.card-body {
+  max-width: 250px;
+  height: 250px;
+}
+
+.card {
+  margin-bottom: 25px;
+  background: #f4f3ee;
+}
+
+.pink-card {
+  background: #c32c72;
+}
+
+.white-card {
+  background: #fff;
+  border: 2px solid #c32c72;
+}
+
+h1 {
+  font-family: "Arvo", serif;
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 2.8rem;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+body {
+  font-family: "Antonio", sans-serif;
+}
+
+footer {
+  font-size: 1.2rem;
+}
+
+nav .active > .nav-link {
+  color: #c32c72 !important;
+}
+
+nav ul {
+  font-size: 1.2rem;
+}
+
+nav .navbar-brand {
+  font-size: 2rem;
+}
+
+.bg-light {
+  background: #f4f3ee !important;
+}

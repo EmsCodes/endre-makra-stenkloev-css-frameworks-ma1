@@ -1,0 +1,8 @@
+$font-primary: 'Antonio', sans-serif;
+$font-headings: 'Arvo', serif;
+
+@function getColour($colour) {
+	@return map-get($colours, $colour);
+}
+
+$colours: (beige:#f4f3ee, grey-text:#8d8d8d, body-grey:#e5e5e5, pink:#c32c72, white-colour:#fff);

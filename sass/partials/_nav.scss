@@ -1,0 +1,15 @@
+nav {
+	.active > .nav-link {
+		color: getColour(pink) !important;
+	}
+	ul {
+		font-size: 1.2rem;
+	}
+	.navbar-brand {
+		font-size: 2rem;
+	}
+}
+
+.bg-light {
+	background: getColour(beige) !important;
+}
