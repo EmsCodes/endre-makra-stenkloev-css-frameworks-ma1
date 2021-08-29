@@ -7,6 +7,9 @@ body {
 	display: flex;
 	flex-direction: column;
 }
+.wrapper {
+	flex: 1 0 auto;
+}
 .card-body {
 	max-width: 250px;
 	height: 250px;
@@ -27,21 +30,26 @@ body {
 footer {
 	background: getColour(white);
 	display: flex;
-	flex-flow: column nowrap;
-	text-align: center;
 	flex-shrink: 0;
 	padding: 25px;
-
-	p {
-		margin: 0;
-	}
-}
-.wrapper {
-	flex: 1 0 auto;
+	flex-flow: column;
+	text-align: center;
 }
 @media (min-width: 700px) {
 	footer {
-		flex-flow: row;
+		flex-flow: row nowrap;
 		justify-content: space-between;
+		padding: 15px;
+		address {
+			margin-left: 5%;
+		}
+		p {
+			margin-right: 5%;
+		}
+	}
+}
+@media (min-width: 1000px) {
+	main {
+		height: 100%;
 	}
 }
