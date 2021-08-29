@@ -1,0 +1,47 @@
+html,
+body {
+	height: 100%;
+}
+body {
+	background: getColour(body-grey);
+	display: flex;
+	flex-direction: column;
+}
+.card-body {
+	max-width: 250px;
+	height: 250px;
+}
+.card {
+	margin-bottom: 25px;
+	background: getColour(beige);
+	border-radius: 15px;
+	box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.07);
+}
+.pink-card {
+	background: getColour(pink);
+}
+.white-card {
+	background: getColour(white);
+	border: 2px solid getColour(pink);
+}
+footer {
+	background: getColour(white);
+	display: flex;
+	flex-flow: column nowrap;
+	text-align: center;
+	flex-shrink: 0;
+	padding: 25px;
+
+	p {
+		margin: 0;
+	}
+}
+.wrapper {
+	flex: 1 0 auto;
+}
+@media (min-width: 700px) {
+	footer {
+		flex-flow: row;
+		justify-content: space-between;
+	}
+}
